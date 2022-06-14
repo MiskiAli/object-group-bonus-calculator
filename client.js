@@ -31,6 +31,21 @@ const employees = [
   }
 ];
 
+//Each are stored in a global array named `employees`
+
+let employeesArray =  [];
+
+//Loop over the `employees` array and do the following:
+
+//* use each employee object as the input to the function described below.
+// * `console.log` the results of each iteration.
+function calculatedEmployeeBonuses(employeesObject){
+  for (let i = 0; i<employeesObject.length; i++){
+  console.log(`'the results are', `employeesObject);
+  }
+}
+calculatedEmployeeBonuses(employees);
+
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
 // This problem is massive! Break the problem down, take small steps, and test as you go.
