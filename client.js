@@ -42,8 +42,25 @@ function calculatedEmployeeBonuses(employeesObject) {
   for (let i = 0; i < employeesObject.length; i++) {
     console.log('We only want to repeat once', employeesObject[i]);
   }
+  return employees= { 
+    name: employeesObject[i].name, 
+    //bonusPercentage: 
+
+  }
+
+
 }
 calculatedEmployeeBonuses(employees);
+
+
+// Write a declared function that takes in one **Employee** object 
+//(as an argument to the function), and returns a new **object** 
+//with the following properties:
+
+
+
+
+
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
