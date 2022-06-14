@@ -1,5 +1,4 @@
-const employees = [
-  {
+const employees = [{
     name: 'Atticus',
     employeeNumber: '2405',
     annualSalary: '47000',
@@ -33,15 +32,15 @@ const employees = [
 
 //Each are stored in a global array named `employees`
 
-let employeesArray =  [];
+let employeesArray = [];
 
 //Loop over the `employees` array and do the following:
 
 //* use each employee object as the input to the function described below.
 // * `console.log` the results of each iteration.
-function calculatedEmployeeBonuses(employeesObject){
-  for (let i = 0; i<employeesObject.length; i++){
-  console.log(`'the results are', `employeesObject);
+function calculatedEmployeeBonuses(employeesObject) {
+  for (let i = 0; i < employeesObject.length; i++) {
+    console.log('We only want to repeat once', employeesObject[i]);
   }
 }
 calculatedEmployeeBonuses(employees);
@@ -54,4 +53,4 @@ calculatedEmployeeBonuses(employees);
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
-console.log( employees );
+// console.log( employees );
